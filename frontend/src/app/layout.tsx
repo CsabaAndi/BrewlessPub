@@ -24,10 +24,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="min-h-screen">
+        {/* Fullscreen background container */}
+        <div
+          className="min-h-screen bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/bg.jpg')" }}
+        >
+          <main className="min-h-screen flex flex-col items-center justify-center">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
