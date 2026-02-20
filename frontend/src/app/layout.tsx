@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./colors.css";
+import { LangProvider } from "@/components/contexts/LangContext";
+import LangChooser from "@/components/LangChooser";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +33,12 @@ export default function RootLayout({
           className="min-h-screen bg-cover bg-center"
           style={{ backgroundImage: "url('/images/bg.jpg')" }}
         >
-          <main className="min-h-screen flex flex-col items-center justify-center">
-            {children}
-          </main>
+          <LangProvider>
+            <LangChooser />
+            <main className="min-h-screen flex flex-col items-center justify-center">
+              {children}
+            </main>
+          </LangProvider>
         </div>
       </body>
     </html>
