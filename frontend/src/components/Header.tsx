@@ -28,9 +28,9 @@ function Header() {
                     <span className='italic'>Ismeretek</span>
                 </button>
             </div>
-            <div id="header_icons" className='flex gap-x-2 sm:gap-x-3'>
-                <GithubIcon size_min={16} size_standard={26} link='https://github.com/CsabaAndi'></GithubIcon>
-                <LinkedinIcon size_min={16} size_standard={26}></LinkedinIcon>
+            <div id="header_icons" className='flex gap-x-2 sm:gap-x-3 text-stone-200'>
+                <GithubIcon size_min={16} size_standard={26} link='https://github.com/CsabaAndi' />
+                <LinkedinIcon size_min={16} size_standard={26} />
             </div>
         </div>
     )
