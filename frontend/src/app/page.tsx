@@ -2,6 +2,7 @@ import Image from "next/image";
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import About from '../components/About/MainPage'
+import BackToTop from '../components/BackToTop';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <About />
       <Footer />
+      <BackToTop></BackToTop>
     </div>
   );
 }
