@@ -32,11 +32,10 @@ export default function Popup({ message }: PopupProps) {
             onClick={handleClose}
         >
             <div
-                className={`relative w-full max-w-md rounded-2xl border-2 border-green-900 bg-stone-900
+                className={`relative w-full max-w-md rounded-2xl border-2 border-color-main bg-stone-900
                             p-6 shadow-2xl shadow-black/60
                             transition-all duration-300
                             ${visible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`}
-                id="colored-border"
                 onClick={e => e.stopPropagation()}
             >
                 <div className='flex items-start justify-between gap-x-4 mb-4'>
@@ -50,7 +49,7 @@ export default function Popup({ message }: PopupProps) {
                             </svg>
                         </span>
                         <h2 className='text-base sm:text-lg font-extrabold tracking-tight text-stone-200'>
-                            <span className='text-green-600' id="colored-text">Fon</span>
+                            <span className='text-color-main'>Fon</span>
                             tos
                         </h2>
                     </div>
@@ -75,10 +74,9 @@ export default function Popup({ message }: PopupProps) {
                 <div className='flex justify-end'>
                     <button
                         onClick={handleClose}
-                        className='flex items-center gap-x-2 rounded-lg border-2 border-green-900
+                        className='flex items-center gap-x-2 rounded-lg border-2 border-color-main
                                    bg-stone-800 px-4 py-2 text-sm font-medium text-white
                                    hover:bg-stone-700 transition-colors duration-150'
-                        id="colored-border"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             strokeWidth="2" stroke="currentColor" className="w-4 h-4">
