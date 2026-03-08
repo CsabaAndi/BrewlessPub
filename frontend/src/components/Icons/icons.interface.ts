@@ -1,10 +1,13 @@
-export interface IconSizeProps{
+export interface IconSizeProps {
     size_min: number;
     size_standard: number;
+    link?: string;
 }
 
-export interface GitIconProps{
+export interface ResponsiveIconWrapperProps {
     size_min: number;
     size_standard: number;
-    link: string;
+    link?: string;
+    title: string;
+    children: (size: number) => React.ReactNode;
 }

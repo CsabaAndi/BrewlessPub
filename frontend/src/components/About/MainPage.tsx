@@ -1,21 +1,21 @@
-import Education from './Education'
-import Projects from './Projects'
 import AboutMe from './About'
-import Thesis from './Thesis'
-import StackNew from './Stack/StackNew'
 import Work from './Work'
+import Education from './Education'
+import Thesis from './Thesis'
+import Projects from './Projects'
+import StackNew from './StackNew'
 
-function About_main() {
+function AboutMain() {
     return (
-        <div className='pb-6'>
-            <AboutMe></AboutMe>
-            <Work></Work>
-            <Education></Education>
-            <Thesis></Thesis>
-            <Projects></Projects>
-            <StackNew></StackNew>
-        </div>
+        <main className="pb-6">
+            <AboutMe />
+            <Work />
+            <Education />
+            <Thesis />
+            <Projects />
+            <StackNew />
+        </main>
     )
 }
 
-export default About_main
+export default AboutMain
