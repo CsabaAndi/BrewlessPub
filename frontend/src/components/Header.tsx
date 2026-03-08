@@ -1,13 +1,15 @@
 'use client'
 import { GithubIcon, LinkedinIcon } from './Icons/SocialIcons'
 import { NavLink, HeaderProps } from './components.interface'
+import { useLang } from './contexts/LangContext';
 
-const NAV_LINKS: NavLink[] = [
-    { label: 'Szakdolgozat', sectionId: 'sect_xy_thesis' },
-    { label: 'Ismeretek', sectionId: 'sect_3_stacknew' },
-]
+function Header({ name = { first: 'Andi', last: 'Csaba' } }: HeaderProps) {
+    const { translate } = useLang();
 
-function Header({ name = { first: 'Andi', last: 'Csaba' }, navLinks = NAV_LINKS }: HeaderProps) {
+    const NAV_LINKS: NavLink[] = [
+        { label: translate('header.thesis'), sectionId: 'sect_xy_thesis' },
+        { label: translate('header.skills'), sectionId: 'sect_3_stacknew' },
+    ]
     const scrollToSection = (sectionId: string) => {
         document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' })
     }
@@ -21,7 +23,7 @@ function Header({ name = { first: 'Andi', last: 'Csaba' }, navLinks = NAV_LINKS 
 
             <nav aria-label="Page sections">
                 <ul className="flex gap-x-2 sm:gap-x-4 list-none p-0 m-0">
-                    {navLinks.map(({ label, sectionId }) => (
+                    {NAV_LINKS.map(({ label, sectionId }) => (
                         <li key={sectionId}>
                             <button
                                 onClick={() => scrollToSection(sectionId)}

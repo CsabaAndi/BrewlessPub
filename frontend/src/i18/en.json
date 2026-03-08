@@ -1,31 +1,123 @@
 {
-    "popup.important": "The page is currently being updated, its content does not fully reflect reality!",
-    "global.firstname": "Csaba",
-    "global.lastname": "Andi",
-    "header.thesis": "Szakdolgozat",
-    "header.": "Ismeretek",
-    "about.about.": "",
-    "about.about.": "",
-    "about.about.": "",
-    "about.about.": "",
-    "about.work.": "",
-    "about.work.": "",
-    "about.work.": "",
-    "about.work.": "",
-    "about.education.": "",
-    "about.education.": "",
-    "about.education.": "",
-    "about.education.": "",
-    "about.thesis.": "",
-    "about.thesis.": "",
-    "about.thesis.": "",
-    "about.thesis.": "",
-    "about.projects.": "",
-    "about.projects.": "",
-    "about.projects.": "",
-    "about.projects.": "",
-    "about.stack.": "",
-    "about.stack.": "",
-    "about.stack.": "",
-    "about.stack.": ""
+    "popup": {
+        "important": "The page is currently being updated, its content does not fully reflect reality!"
+    },
+    "global": {
+        "firstname": "Csaba",
+        "lastname": "Andi"
+    },
+    "header": {
+        "thesis": "Thesis",
+        "skills": "Skills"
+    },
+    "about": {
+        "location": {
+            "key": "Location",
+            "value": "Szeged"
+        },
+        "age": {
+            "key": "Age",
+            "value": "25"
+        },
+        "hobbies": {
+            "heading": {
+                "colored": "Hob",
+                "rest": "bies"
+            },
+            "items": [
+                {
+                    "key": "Cooking",
+                    "value": "I love to cook and bake."
+                },
+                {
+                    "key": "Sport",
+                    "value": "I like to go running."
+                },
+                {
+                    "key": "Reading",
+                    "value": "I'm a thriller & fantasy fan."
+                }
+            ]
+        },
+        "work": {
+            "heading": {
+                "colored": "",
+                "rest": ""
+            },
+            "items": []
+        },
+        "education": {
+            "heading": {
+                "colored": "Edu",
+                "rest": "cation"
+            },
+            "items": [
+                {
+                    "startYear": 2019,
+                    "endYear": "present",
+                    "location": "University of Szeged",
+                    "description": "BSc Software Engineering"
+                },
+                {
+                    "startYear": 2015,
+                    "endYear": 2019,
+                    "location": "I. Béla High School, Szekszárd",
+                    "description": "High School Diploma"
+                }
+            ]
+        },
+        "languages": {
+            "heading": {
+                "colored": "Lan",
+                "rest": "guages"
+            },
+            "items": [
+                {
+                    "startYear": 2019,
+                    "endYear": "",
+                    "location": "Szekszárd",
+                    "description": "English intermediate 'C' type language exam"
+                }
+            ]
+        },
+        "thesis": {
+            "heading": {
+                "colored": "The",
+                "rest": "sis"
+            },
+            "topic": "Application of machine learning and deep learning in football",
+            "description": "Goal: building the most accurate models possible for predicting football match outcomes. Collecting, processing, analysing and visualising data, then creating prediction models using machine learning and deep learning."
+        },
+        "projects": {
+            "heading": {
+                "colored": "Pro",
+                "rest": "jects"
+            },
+            "items": [
+                {
+                    "title": "Data collection",
+                    "summary": "Data collection for thesis"
+                },
+                {
+                    "title": "Portfolio website",
+                    "summary": "Responsive portfolio website"
+                },
+                {
+                    "title": "Cryptocurrency price tracker",
+                    "summary": "Web development frameworks project"
+                }
+            ]
+        },
+        "stack": {
+            "heading": {
+                "colored": "Tech",
+                "rest": " Stack"
+            },
+            "categories": {
+                "back_front": "Backend & Frontend",
+                "db_cloud": "Database & Cloud",
+                "os_secu": "Operating systems & Privacy"
+            }
+        }
+    }
 }

@@ -11,7 +11,8 @@ const translations = { en, hu };
 interface LangContextType {
     lang: Lang;
     setLang: (lang: Lang) => void;
-    t: (key: keyof typeof en) => string;
+    translate: (key: string) => string;
+    td: <T>(key: string) => T;
 }
 
 const LangContext = createContext<LangContextType | null>(null);
@@ -22,10 +23,16 @@ export function LangProvider({ children }: { children: ReactNode }) {
         return navigator.language.startsWith("hu") ? "hu" : "en";
     });
 
-    const t = (key: keyof typeof en) => translations[lang][key] ?? key;
+    const translate = (key: string): string => {
+        return key.split('.').reduce((obj: any, k) => obj?.[k], translations[lang]) ?? key;
+    }
+
+    const td = <T,>(key: string): T => {
+        return key.split('.').reduce((obj: any, k) => obj?.[k], translations[lang]) as T;
+    }
 
     return (
-        <LangContext.Provider value={{ lang, setLang, t }}>
+        <LangContext.Provider value={{ lang, setLang, translate, td }}>
             {children}
         </LangContext.Provider>
     );

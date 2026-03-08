@@ -9,7 +9,7 @@ export default function Home() {
   return (
 
     <div id='main' className='flex flex-col max-w-screen-2xl 2xl:max-w-screen-xl 2xl:m-8 items-start overflow-hidden border border-stone-900 bg-stone-900 2xl:rounded-3xl'>
-      <Popup message="Welcome to the site! This appears on every page load." />
+      <Popup />
       <Header />
       <About />
       <Footer />

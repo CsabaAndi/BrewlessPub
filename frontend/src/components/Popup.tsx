@@ -1,12 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useLang } from './contexts/LangContext';
 
-type PopupProps = {
-    message: string;
-};
-
-export default function Popup({ message }: PopupProps) {
+export default function Popup() {
+    const { translate } = useLang();
     const [mounted, setMounted] = useState(false);
     const [visible, setVisible] = useState(false);
 
@@ -69,7 +67,7 @@ export default function Popup({ message }: PopupProps) {
                     </button>
                 </div>
                 <p className='text-sm sm:text-base text-stone-400 leading-relaxed mb-6'>
-                    {message}
+                    {translate('popup.important')}
                 </p>
                 <div className='flex justify-end'>
                     <button

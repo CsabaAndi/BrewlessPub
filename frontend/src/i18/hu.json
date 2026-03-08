@@ -1,31 +1,123 @@
 {
-    "popup.important": "Az oldal frissítés alatt áll, tartalma nem teljes mértékben egyezik meg a valósággal!!",
-    "global.firstname": "Csaba",
-    "global.lastname": "Andi",
-    "header.thesis": "Szakdolgozat",
-    "header.": "Ismeretek",
-    "about.about.": "",
-    "about.about.": "",
-    "about.about.": "",
-    "about.about.": "",
-    "about.work.": "",
-    "about.work.": "",
-    "about.work.": "",
-    "about.work.": "",
-    "about.education.": "",
-    "about.education.": "",
-    "about.education.": "",
-    "about.education.": "",
-    "about.thesis.": "",
-    "about.thesis.": "",
-    "about.thesis.": "",
-    "about.thesis.": "",
-    "about.projects.": "",
-    "about.projects.": "",
-    "about.projects.": "",
-    "about.projects.": "",
-    "about.stack.": "",
-    "about.stack.": "",
-    "about.stack.": "",
-    "about.stack.": ""
+    "popup": {
+        "important": "Az oldal frissítés alatt áll, tartalma nem teljes mértékben egyezik meg a valósággal!!"
+    },
+    "global": {
+        "firstname": "Csaba",
+        "lastname": "Andi"
+    },
+    "header": {
+        "thesis": "Szakdolgozat",
+        "skills": "Ismeretek"
+    },
+    "about": {
+        "location": {
+            "key": "Tartózkodási hely",
+            "value": "Szeged"
+        },
+        "age": {
+            "key": "Életkor",
+            "value": "25"
+        },
+        "hobbies": {
+            "heading": {
+                "colored": "Hob",
+                "rest": "bik"
+            },
+            "items": [
+                {
+                    "key": "Főzés",
+                    "value": "Szeretek főzni és sütni."
+                },
+                {
+                    "key": "Sport",
+                    "value": "Szokásom futni."
+                },
+                {
+                    "key": "Olvasás",
+                    "value": "Krimi & Fantasy rajongó vagyok."
+                }
+            ]
+        },
+        "work": {
+            "heading": {
+                "colored": "",
+                "rest": ""
+            },
+            "items": []
+        },
+        "education": {
+            "heading": {
+                "colored": "Tan",
+                "rest": "ulmányok"
+            },
+            "items": [
+                {
+                    "startYear": 2019,
+                    "endYear": "present",
+                    "location": "Szegedi Tudományegyetem",
+                    "description": "Mérnökinformatikus BSc"
+                },
+                {
+                    "startYear": 2015,
+                    "endYear": 2019,
+                    "location": "Szekszárdi I. Béla Gimnázium",
+                    "description": "Érettségi"
+                }
+            ]
+        },
+        "languages": {
+            "heading": {
+                "colored": "Nye",
+                "rest": "lvek"
+            },
+            "items": [
+                {
+                    "startYear": 2019,
+                    "endYear": "",
+                    "location": "Szekszárd",
+                    "description": "Angol középfokú 'C' típusú nyelvvizsga"
+                }
+            ]
+        },
+        "thesis": {
+            "heading": {
+                "colored": "Szak",
+                "rest": "dolgozat"
+            },
+            "topic": "Gépi tanulás és mély tanulás alkalmazása a labdarúgásban",
+            "description": "Cél: minél pontosabb modellek alkotása labdarúgás meccsek eredményének predikciójára. Adatok gyűjtése, feldolgozása, elemzése és vizualizációja, majd predikciós modellek alkotása gépi tanulás és mély tanulás alkalmazásával."
+        },
+        "projects": {
+            "heading": {
+                "colored": "Pro",
+                "rest": "jektek"
+            },
+            "items": [
+                {
+                    "title": "Adatgyűjtés",
+                    "summary": "Adatgyűjtés szakdolgozathoz"
+                },
+                {
+                    "title": "Portfólió weboldal",
+                    "summary": "Reszponzív portfólió weboldal"
+                },
+                {
+                    "title": "Kriptovaluta árfolyam figyelő alkalmazás",
+                    "summary": "Webfejlesztési keretrendszerek projektmunka"
+                }
+            ]
+        },
+        "stack": {
+            "heading": {
+                "colored": "Szak",
+                "rest": "mai ismeretek"
+            },
+            "categories": {
+                "back_front": "Backend & Frontend",
+                "db_cloud": "Database & Cloud",
+                "os_secu": "Operating systems & Privacy"
+            }
+        }
+    }
 }
