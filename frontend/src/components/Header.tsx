@@ -16,7 +16,7 @@ function Header({ name = { first: 'Andi', last: 'Csaba' }, navLinks = NAV_LINKS 
         <header className="flex w-full items-center justify-between border border-stone-900 mt-2 mb-6 px-4 py-2 sm:mt-2 sm:px-6 sm:mb-12 md:mt-4 md:px-8 md:mb-12 lg:mt-4 xl:mt-6 2xl:mt-8 rounded-sm">
             <p className="flex items-center gap-x-1 text-sm text-white sm:text-xl md:text-2xl lg:text-3xl tracking-tight select-none">
                 <span>{name.first}</span>
-                <span className="font-bold text-green-500" id="colored-text">{name.last}</span>
+                <span className="font-bold text-color-main">{name.last}</span>
             </p>
 
             <nav aria-label="Page sections">
@@ -25,7 +25,7 @@ function Header({ name = { first: 'Andi', last: 'Csaba' }, navLinks = NAV_LINKS 
                         <li key={sectionId}>
                             <button
                                 onClick={() => scrollToSection(sectionId)}
-                                className="text-stone-300 hover:text-white text-xs sm:text-base lg:text-xl italic transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-500 rounded-sm px-1"
+                                className="text-stone-300 hover:text-white text-xs sm:text-base lg:text-xl italic transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-main rounded-sm px-1"
                             >
                                 {label}
                             </button>
