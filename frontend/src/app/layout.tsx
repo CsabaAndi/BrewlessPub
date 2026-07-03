@@ -33,7 +33,6 @@ export default function RootLayout({
           style={{ backgroundImage: "url('/images/bg.jpg')" }}
         >
           <LangProvider>
-            <LangChooser />
             <main className="min-h-screen flex flex-col items-center justify-center">
               {children}
             </main>

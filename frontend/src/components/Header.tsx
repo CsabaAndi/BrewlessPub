@@ -2,6 +2,7 @@
 import { GithubIcon, LinkedinIcon } from './Icons/SocialIcons'
 import { NavLink, HeaderProps } from './components.interface'
 import { useLang } from './contexts/LangContext';
+import LangChooser from './LangChooser'
 
 function Header({ name = { first: 'Andi', last: 'Csaba' } }: HeaderProps) {
     const { translate } = useLang();
@@ -37,6 +38,7 @@ function Header({ name = { first: 'Andi', last: 'Csaba' } }: HeaderProps) {
             </nav>
 
             <div className="flex items-center gap-x-2 sm:gap-x-3 text-stone-300">
+                <LangChooser />
                 <GithubIcon size_min={16} size_standard={26} link="https://github.com/CsabaAndi" />
                 <LinkedinIcon size_min={16} size_standard={26} />
             </div>
