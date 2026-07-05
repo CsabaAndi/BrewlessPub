@@ -26,6 +26,15 @@ export interface StackGroupProps {
     items: StackItem[]
 }
 
+export interface TextStackItem {
+    label: string
+}
+
+export interface TextStackGroupProps {
+    name: string
+    items: TextStackItem[]
+}
+
 //education 
 
 export interface Experience {

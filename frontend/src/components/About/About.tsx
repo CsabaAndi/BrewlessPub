@@ -8,8 +8,8 @@ import { InfoItem, HobbyItem } from "./about.interface"
 
 const INFO_ITEMS: InfoItem[] = [
     { label: 'Tartózkodási hely', value: 'Szeged' },
-    { label: 'Tanulmányok', value: 'Mérnökinformatikus BSc hallgató' },
-    { label: 'Életkor', value: '23' },
+    { label: 'Végzettség', value: 'Mérnökinformatikus BSc' },
+    { label: 'Életkor', value: '25' },
 ]
 
 const HOBBIES: HobbyItem[] = [
@@ -81,18 +81,16 @@ function AboutMe() {
                                 Andi Csaba
                             </h1>
                             <p className="mt-1 text-sm sm:text-lg font-bold text-color-main">
-                                &lt;Mérnökinformatikus hallgató&gt;
+                                &lt;Software Engineer Intern&gt;
                             </p>
                         </div>
 
                         {/* Bio */}
                         <p className="text-stone-400 font-bold leading-relaxed">
-                            A Szegedi Tudományegyetem Természettudományi és Informatikai
-                            Karának{' '}
-                            <strong className="text-stone-300">
-                                utolsó éves, mérnökinformatikus
-                            </strong>{' '}
-                            hallgatója vagyok.
+                            2024 óta dolgozom teljes munkaidőben szoftverfejlesztő gyakornokként a <strong className="text-stone-300">GE HealthCare</strong> szegedi irodájában. 
+                            Az első két hónapot töltöttem gyakornoki feladatokkal, azóta viszont junior és medior szintű feladatokat látok el, hivatalosan továbbra is gyakornoki pozícióban.
+
+                            Legmagasabb végzettségem Mérnökinformatikus BSc, amelyet 2025-ben szereztem a Szegedi Tudományegyetem Természettudományi és Informatikai Karán.
                         </p>
 
                         {/* Info grid */}

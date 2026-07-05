@@ -6,7 +6,7 @@ export default function LangChooser() {
     const { lang, setLang } = useLang();
 
     return (
-        <div className="flex items-center gap-1 font-mono text-sm tracking-widest uppercase">
+        <div className="flex items-center gap-1 font-mono text-[6px] sm:text-sm tracking-widest uppercase">
             <button
                 onClick={() => setLang("en")}
                 className={`px-2 py-1 transition-all duration-200 ${lang === "en"

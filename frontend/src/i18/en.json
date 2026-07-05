@@ -1,6 +1,8 @@
 {
     "popup": {
-        "important": "The page is currently being updated, its content does not fully reflect reality!"
+        "important": "This website is currently being updated. Some content may be outdated or incomplete, and certain sections are currently broken!",
+        "lastUpdatedLabel": "Last updated: ",
+        "lastUpdatedDate": "2026-07-05"
     },
     "global": {
         "firstname": "Csaba",

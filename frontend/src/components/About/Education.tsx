@@ -15,7 +15,7 @@ import { Experience, ExperienceGroupProps } from "./about.interface"
 
 // Temporary
 const education: Experience[] = [
-    { startYear: 2019, endYear: 'present', location: 'Szegedi Tudományegyetem', description: 'Mérnökinformatikus BSc' },
+    { startYear: 2019, endYear: 2025, location: 'Szegedi Tudományegyetem', description: 'Mérnökinformatikus BSc' },
     { startYear: 2015, endYear: 2019, location: 'Szekszárdi I. Béla Gimnázium', description: 'Érettségi' },
 ]
 
@@ -24,7 +24,7 @@ const languages: Experience[] = [
 ]
 
 const eduHeading = { colored: 'Tan', rest: 'ulmányok' }
-const langHeading = { colored: 'Lan', rest: 'guages' }
+const langHeading = { colored: 'Nyel', rest: 'vek' }
 
 // Temporary
 

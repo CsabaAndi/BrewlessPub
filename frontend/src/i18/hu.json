@@ -1,6 +1,8 @@
 {
     "popup": {
-        "important": "Az oldal frissítés alatt áll, tartalma nem teljes mértékben egyezik meg a valósággal!!"
+        "important": "Az oldal frissítés alatt áll, tartalma nem teljes mértékben egyezik meg a valósággal!!",
+        "lastUpdatedLabel": "Utoljára frissítve: ",
+        "lastUpdatedDate": "2026-07-05"
     },
     "global": {
         "firstname": "Csaba",
