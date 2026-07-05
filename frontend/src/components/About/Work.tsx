@@ -24,7 +24,7 @@ function Work() {
         <section id='sect_xxx_work' className='px-4 mb-12 sm:p-0 sm:px-4 md:px-8'>
             <h2 className='pb-4 sm:pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
                 <span className='text-color-main'>Szak</span>
-                mai tapasztalat - <span className="text-red-400">Work In Progress</span>
+                mai tapasztalat - <span className="text-red-400">Currently Being Updated</span>
             </h2>
             <div className='grid grid-cols-1 lg:grid-cols-6 md:grid-cols-8 sm:grid-cols-6'>
                 <div className='lg:col-span-4 lg:col-start-2 md:col-span-6 md:col-start-2 sm:col-span-6 sm:col-start-1'>

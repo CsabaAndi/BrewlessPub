@@ -51,9 +51,7 @@ function Thesis() {
                         ))}
                     </div>
                     <div className="sm:col-span-3 rounded-xl border-2 border-color-main bg-stone-900 p-4 sm:p-6 shadow-xl shadow-black/30">
-                        <p className="mb-3 text-center font-bold text-stone-200">
-                            Folyamatban <span className="text-yellow-500">!</span>
-                        </p>
+                        <p className="mb-3 text-center font-bold text-stone-200"></p>
                         <ul className="space-y-3 text-sm text-stone-300 list-disc list-inside">
                             <li>
                                 Cél: minél pontosabb modellek alkotása labdarúgás meccsek
